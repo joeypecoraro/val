@@ -1,0 +1,60 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: floralwhite;
+    color: rgb(45, 45, 45);
+    text-transform: lowercase;
+    font-family: 'Cousine', monospace;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(45, 45, 45);
+}
+
+.nav {
+    position: relative;
+    margin: 0;
+    height: 15%;
+    display: flex;
+    background-color: aliceblue;
+}
+
+.nav div {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex; /* for 'a' */
+}
+
+.nav div a {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav div a:hover {
+    color: peachpuff;
+}
+
+.nav div:nth-child(1) {flex-basis: 15%}
+.nav div:nth-child(2) {flex-basis: 5%}
+.nav div:nth-child(3) {
+    flex-basis: 60%;
+    font-size: 2em;
+    font-family: 'Lemon', cursive;
+}
+.nav div:nth-child(4) {flex-basis: 5%}
+.nav div:nth-child(5) {flex-basis: 15%}
+
+.container {
+    position: relative;
+    margin: 5% auto;
+}
+
+.container div {
+    text-align: center;
+    
+}
