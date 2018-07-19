@@ -15,7 +15,7 @@ a {
 .nav {
     position: relative;
     margin: 0;
-    height: 15%;
+    height: 60px;
     display: flex;
     background-color: aliceblue;
 }
